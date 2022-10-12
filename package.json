@@ -1,0 +1,27 @@
+{
+  "name": "stats-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build":"tsc -w",
+    "start:run":"nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smthbrothrjdev/stats-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smthbrothrjdev/stats-TS/issues"
+  },
+  "homepage": "https://github.com/smthbrothrjdev/stats-TS#readme",
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  }
+}
